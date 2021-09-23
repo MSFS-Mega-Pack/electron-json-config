@@ -1,6 +1,6 @@
 {
   "name": "@msfs/electron-json-config",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Simply set and get configuration from a json file for your Electron app",
   "main": "lib/index.js",
   "keywords": [
