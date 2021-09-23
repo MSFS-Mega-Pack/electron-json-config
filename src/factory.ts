@@ -1,4 +1,5 @@
-import { app, remote } from 'electron';
+import { app } from 'electron';
+import * as remote from '@electron/remote';
 import { join } from 'path';
 import { read } from './utils';
 import Conf from './Config';

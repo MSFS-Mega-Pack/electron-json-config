@@ -1,6 +1,7 @@
 import { expect } from 'chai';
 import { join } from 'path';
-import { app, remote } from 'electron';
+import { app } from 'electron';
+import * as remote from '@electron/remote';
 import {
     mkdirSync,
     rmdirSync,

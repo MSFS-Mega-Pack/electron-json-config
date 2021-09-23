@@ -1,7 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { expect } from 'chai';
 import { join } from 'path';
-import { app, remote } from 'electron';
+import { app } from 'electron';
+import * as remote from '@electron/remote';
 import { unlinkSync, readFileSync } from 'fs';
 import Config from './Config';
 
